@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-travel-activism.json",
+  "type": "AnnotationPage",
+  "label": "Travel\nActivism",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-travel-activism-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: You see, what had happened is you always wanted to leave. \n\nGA: I always wanted to leave JL: But you couldn’t get away. \n\nGA: No. \n\nJL: Finally you did. But you always wanted to. \n\nGA: Yes, I still want to. I wanna move to the east coast. I’ve been here three years and I’m ready to go.\n\nJL: Where were you before this three years?\n\nGA: Um, I was in Indiana. I was working with the migrant programs in Indiana.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "676.0,706.0"
+        }
+      }
+    }
+  ]
+}

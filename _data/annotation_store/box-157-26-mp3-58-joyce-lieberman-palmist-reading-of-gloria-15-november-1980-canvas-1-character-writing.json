@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-character-writing.json",
+  "type": "AnnotationPage",
+  "label": "Character\nWriting",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-character-writing-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "GA: Yeah, I made up my mind I was gonna be a writer and uh, its been very hard. Writing is very hard.\n\nJL: Oh yeah.\n\nGA: I just feel like I have more energy that I’m stopping, you know. That I’m stopping it up. That I’m not using my energy. Cause I feel very frustrated.\n\nJL: Well, maybe you dont hold still long enough and you don’t stay quiet long enough. You’re driven.\n\nGA: Yes.\n\nJL: And I’d like to see you slow down. I’d like to see you talk less. I’d like to see you pause more. For you! I’m not talking in the terms of this.\n\nGA: For me.\n\nJL: That will give you a chance to un-dam. See, you ride yourself like you're a horse.\n\nGA: Yeah, yeah.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "798.0,855.0"
+        }
+      }
+    }
+  ]
+}

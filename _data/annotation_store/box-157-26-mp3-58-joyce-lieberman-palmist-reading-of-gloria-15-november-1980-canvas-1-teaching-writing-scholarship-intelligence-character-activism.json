@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-teaching-writing-scholarship-intelligence-character-activism.json",
+  "type": "AnnotationPage",
+  "label": "Teaching\nWriting\nScholarship\nIntelligence\nCharacter\nActivism",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-teaching-writing-scholarship-intelligence-character-activism-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: So you teach at State?\n\nGA: Journal writing. In the Feminist, uh, Women’s studies.\n\nJL: Do you have–how many degrees do you have? Do you have a degree?\n\nGA: mmhmm Two? I almost have my PhD. But I didn’t stay for the–I didn’t finish my dissertation.\n\nJL: I told you you were intelligent. You didn’t seem to know it. Don’t you think that’s strange?\n\nGA: No, well a lot of people have phds and theyre not that intelligent.\n\nJL: But you are. You have fierce determination. That you know, don’t you?\n\nGA: Yes. I have a vision.\n\nJL: Are you very close to the feminist movement? At state?\n\nGA: No. I’ve laways been sort of a…I don’t know what the word is–I don’t ever follow any kind of doctrine. But I have my own philosophy and my own religion.\n\nJL: Believe me, you’ve had plenty of protection in your life.\n\nGA: From whom?\n\nJL: Just from whatever. [inaudible] You’ve just been protected. I’m telling you.\n\nGA: mmhmm",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1431.0,1516.0"
+        }
+      }
+    }
+  ]
+}

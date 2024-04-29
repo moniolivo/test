@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-body-and-health.json",
+  "type": "AnnotationPage",
+  "label": "Body and Health",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-body-and-health-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: See you were born into a lot of difficulty. Right off the bat.\n\nGA: Yes\n\nJL: A lot. Was there difficulty at home? As well as your own health? Poverty?\n\nGA: Yeah, poverty and\n\nJL: Fighting sickness? What?\n\nGA: Sickness, um, just a lot of difficulty. My father died very early and I always had problems with my uterus, hormones, my period.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "440.0,471.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-body-and-health-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: Listen, you’re lucky to be here.\n\nGA: Am I?\n\nJL: I mean, you’re here. You’re pretty healthy.\n\nGA: I’ve come close to death a whole lot of times\n\nJL: I know. You’re a strong lady…\n\nGA: This- I broke that and the wrist bone. Two, three years ago.\n\nJL: At this point you are right-handed though, right?\n\nGA: Yes. I do not-I can’t write with my left hand anymore. I can do some heavy things, but mostly the fine things I have to do with my right hand.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "471.0,531.0"
+        }
+      }
+    }
+  ]
+}

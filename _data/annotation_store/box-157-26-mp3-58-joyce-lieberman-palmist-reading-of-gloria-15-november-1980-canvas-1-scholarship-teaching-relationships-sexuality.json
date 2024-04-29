@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-scholarship-teaching-relationships-sexuality.json",
+  "type": "AnnotationPage",
+  "label": "Scholarship\nTeaching\nRelationships\nSexuality",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-scholarship-teaching-relationships-sexuality-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: And in very difficult times round your 24th, 25th, 26th year. What was going on between 24 and 26 or 23 and 26?\n\nGA: I had finished school and I started teaching and I had several romantic involvements and uh...\n\nJL: Did they come to anything?\n\nGA: No they didn’t come to anything\n\nJL: Were they one-sided?\n\nGA: Yeah. Not-there wasn’t any interest on my part beyond, you know, beyond sexual intimacy.\n\nJL: Did they want it?\n\nGA: Yeah.\n\nJL: Did you have sexual intimacy?\n\nGA: mmhmm Yes.\n\nJL: I though you said you didn’t have any–you didn’t–no you said you weren’t in love. But you have had quite a few sexual encounters?\n\nGA: No, not quite a few. About 3 that were relatively, well at least longer than 6 months, and then one that didn’t last but a few months.\n\nJL: I think your needs are quite great in that direction. You should try to have fun.\n\nGA: I’m probably starved [laughs]",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1516.0,1607.0"
+        }
+      }
+    }
+  ]
+}

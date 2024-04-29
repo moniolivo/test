@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-relationships-character-futurity-sexuality-self-definition.json",
+  "type": "AnnotationPage",
+  "label": "Relationships\nCharacter\nFuturity\nSexuality\nSelf-Definition",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-relationships-character-futurity-sexuality-self-definition-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: Well…yeah. I really feel you’ve tried to guard yourself, but at the same time not to be so afraid that you don’t allow people to see how you feel. Because like everybody, of course you don’t want to be hurt. Essentially, from about your 24th through your 28th year, you were sort of on a path, a particular path, and at about 28 or 29, around that time, there was a slight divergence and you started threading along another path. Which was [inaudible].\n\nGA: [inaudible]?\n\nJL: Well close to. Not totally different, but it was in the same path. It did take a shift.\n\nGA: A detour.\n\nJL: Yeah\n\nGA: And now I’m back on the original?\n\nJL: Yeah--well wait a minute.\n\nGA: Okay. [laughs] Sorry.\n\nJL: [inaudible] and you're–on that same path now, that youve been on since that revision since you were 28, 29, 27, whenever that was. And that’s gonna carry you through about until you’re 46th year. Give or take a year. When you will be moving in three paths, like a prong.\n\nGA: Wow [laughs]. Is that possible to do?\n\nJL: Why not? There are gonna be three possibilities there. In other words, what I’m saying to you, in your 46th year or so, give or take a year, there will be another either career or moral, or interior decision where you’re going to have to revise and revamp again. And where you will.\n\nGA: Those are always painful.\n\nJL: Well, they’re always interesting too aren’t they?\n\nGA: Yes\n\nJL: Um, I think that you’ve got a lot of power in that hand, and a lot of ability to love and a lot of needs. I don’t think you’re made like a nun at all. I want you to know that. I think that other people decide, but don’t let them decide for you. Don't let them look at you and decide you should be a nun. You look at you and decide what you want to be.\n\nGA: Yes.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1607.0,1762.0"
+        }
+      }
+    }
+  ]
+}

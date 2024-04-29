@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-character-relationships.json",
+  "type": "AnnotationPage",
+  "label": "Character\nRelationships",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-character-relationships-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: You have enormous amounts of power. Energy. And warmth. Very warm person. A very warm person. A great deal to give. And, uh, I tell you, you don’t show a lot. You try to not show a lot of what you’ve been through and a tremendous amount of pain. But, you’ve got a lot of growth out of it. See part of you is like a fireball. You make your mind up about things real quick. You’re as stubborn as an ox. You move like a tank\n\nGA: [laughs] yeah\n\nJL: On the other hand, you know, there’s a lot inside of you that feels real fragile and wants at all costs not to be hurt.\n\nGA: Yes, but I’m very vulnerable around relationships.\n\nJL: Who is not? I’ll tell you, youre a very powerful lady. And you have enormous will and determination. Enormous. You have enormous will and determination. It’s true. It’s just there. And that I promise you.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "706.0,798.0"
+        }
+      }
+    }
+  ]
+}

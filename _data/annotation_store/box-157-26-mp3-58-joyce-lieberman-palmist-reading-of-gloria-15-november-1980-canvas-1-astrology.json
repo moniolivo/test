@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-astrology.json",
+  "type": "AnnotationPage",
+  "label": "Astrology",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-astrology-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: You know, cause, uh...[long pause] Now you have, you know, you have quite a bit of fire in you, and some earth, and some water is mixed. What is your sign?\n\nGA: Uh, Libra, but I have a lot of earth though\n\nJL: Oh, yeah, right, cause in no way is this an air hand, in the world.\n\nGA: In no way its what? Air?\n\nJL: It's not an air hand. And a libra is air, but you have… what’s your ascendant?\n\nGA: My ascendant is sagittarius.\n\nJL: There’s the fire.\n\nGA: And my moon is Aries.\n\nJL: More fire. See now that’s actually a fire hand. Essentially its a fire hand with some–You have a paramount water placement somewhere, I don’t know where it is. But its essentially fire. See one hand is more fire, the other hand is more earth. No, that’s not true. There’s essentially a fire hand.\n\nGA: I have quite a bit of earth in my chart, so...\n\nJL: Yeah. See it’s very interesting. [inaudible] It would be very interesting to know when that switch over with the hands came. Because there’s an extraordinary amount of difference in your hands. Even given the proportion of differences in all hands.\n\nGA: I think it must have come like around when I was seven?",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "336.0,440.0"
+        }
+      }
+    }
+  ]
+}

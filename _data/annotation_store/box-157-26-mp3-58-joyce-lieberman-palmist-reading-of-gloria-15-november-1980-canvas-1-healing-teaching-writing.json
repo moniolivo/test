@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-healing-teaching-writing.json",
+  "type": "AnnotationPage",
+  "label": "Healing\nTeaching\nWriting",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-healing-teaching-writing-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "GA: You think I should be working with healing?\n\nJL: Yes\n\nGA: Types of healing?\n\nJL: Types of healing, and that could be through communication. That could be through loving. That can be through nursing. It could be through caring in some way. Social work. You know all kinds of manifestations could that take. Where do you teach here?\n\nGA: I teach journal writing at State. San Francisco State. And I teach, uh--\n\nJL: What's your last name?\n\nGA: Creative writing worksh--Anzaldua.\n\nJL: Ah-zal-du-ah?\n\nGA: Anzaldua\n\nJL: Anzaldua\n\nGA: I teach creative writing.\n\nJL: What’s “anzal” mean?\n\nGA: It’s a basque word. The Basque provinces.\n\nJL: Is “dua” from “two”?\n\nGA: An-zal-dua…No, I think that the Basques have an entirely different language in the Indo-European-\n\nJL: You are Basque?\n\nGA: My ancestors. Basque and Spanish and Mayan and Aztec…\n\nJL: Whatever?\n\nGA: All–I’m a mongrel.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1369.0,1431.0"
+        }
+      }
+    }
+  ]
+}

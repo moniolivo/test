@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-teaching-writing-meditation-astrology-healing.json",
+  "type": "AnnotationPage",
+  "label": "Teaching\nWriting\nMeditation\nAstrology\nHealing",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-teaching-writing-meditation-astrology-healing-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "GA: I teach.\n\nJL: I was gonna get to that. Lift your hands up again please. See you work with words?\n\nGA: I teach writing, meditation…anything that has to do with writing. That facilitates getting deeper within.\n\nJL: It’s strong in your hands, I’ll tell ya. It’s a good thing for you to be doing.\n\nGA: Words are strong in my hands?\n\nJL: Communications. Very strong. Very strong. Any interest in the sciences or in purely communication?\n\nGA: No, I love the sciences. I love to read about biophysics\n\nJL: That whole Mercury constellation is so strong in your hand. And, uh\n\nGA: I wanted to be a doctor.\n\nJL: Yeah, I see you have a condusis–that’s real strong in you and you you should be working with people.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1307.0,1369.0"
+        }
+      }
+    }
+  ]
+}

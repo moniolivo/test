@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-lesbianism-relationships-sexuality.json",
+  "type": "AnnotationPage",
+  "label": "Lesbianism\nRelationships\nSexuality",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-lesbianism-relationships-sexuality-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: Did you know that you can love women very much too, also? Very strongly?\n\nGA: yeah mmhmm. I consider myself a lesbian\n\nJL: Do you?\n\nGA: Mmhmm. But I love all kinds of people.\n\nJL: Mmhmm. Have you had relationships with women?\n\nGA: No\n\nJL: [inaudible]\n\nGA: The last one I had was two years ago. It’ll be two years ago in January. He was a man.\n\nJL: You’ve never had a relationship with a woman?\n\nGA: No",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1179.0,1209.0"
+        }
+      }
+    }
+  ]
+}

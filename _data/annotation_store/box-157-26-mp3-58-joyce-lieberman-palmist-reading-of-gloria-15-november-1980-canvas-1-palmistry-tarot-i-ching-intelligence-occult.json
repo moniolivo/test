@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-palmistry-tarot-i-ching-intelligence-occult.json",
+  "type": "AnnotationPage",
+  "label": "Palmistry\nTarot\nI Ching\nIntelligence\nOccult",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-palmistry-tarot-i-ching-intelligence-occult-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: Has this been of value to you?\n\nGA: This has been a very good reading.\n\nJL: Have you had any palm readings before?\n\nGA: Um I had a woman named Elena who goes around town doing it. But very--just like five minute things. But I've always been interested in palms. I want to take a workshop.\n\nJL: Do!\n\nGA: I'm also very interested in tarot, in I Ching...\n\nJL: Well you just generally have a lot of interest in the occult. And pursue your interests, because you have a tremendous amount of intelligence and...energy. And it should be used.\n\nGA: Okay\n\nJL: I hope I have given you something to work with and you have somehting you came for.\n\nGA: Yes\n\nJL: Your direction is deifnitely with people and with things and with serving.\n\nGA: My destiny is the lovers (?) Number 6 (?)\n\nJL: And, uh, don't let other people determine for you what your needs are.\n\nGA: Alright, thank you.\n\nJL: Do I have your card?\n\nGA: Yes. It's right there.\n\nJL: Thank you.\n\n[Recording Stops]",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1896.0,1972.0"
+        }
+      }
+    }
+  ]
+}

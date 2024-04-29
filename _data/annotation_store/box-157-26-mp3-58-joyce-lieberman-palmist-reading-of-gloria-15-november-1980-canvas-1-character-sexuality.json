@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-character-sexuality.json",
+  "type": "AnnotationPage",
+  "label": "Character\nSexuality",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-character-sexuality-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "GA: You don’t think I could also be like a nun type? Ascetic? Some people think I’m too nun-like.\n\nJL: I don’t think you’re nun-like at all. Even if you haven’t screwed in 28 years. I don’t think youre nun-like at all. You know, I’m not talking about whether you’re Black or not, or whether you’re celibate or not. I’m talking about an attitude toward life, and how you feel, and how you think isn’t necessarily what people are seeing.\n\nGA: Right\n\nJL: Cause you hide a lot.\n\nGA: I hide a lot.\n\nJL: And I think that your needs are not of the nun-ly sort, if you want me to be honest with you.\n\nGA: I’ve always felt a little bit like that, but its sort of like egotistic to think that I think for me. But hearing somebody else say it…\n\nJL: Why is that egotistical? I mean, you can be very giving, and give yourself to a cause, and have passions that are very strong. Because you do have them. You decide to let them out in a socially militant way, rather than a sexual way, that’s your need, or your choice, or your defense or whichever way you choose to look at that. This hand is full of animal energy, and I think would like a great deal of sensation out of that.\n\nGA: Yes",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "930.0,1027.0"
+        }
+      }
+    }
+  ]
+}

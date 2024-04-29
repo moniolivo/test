@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-relationships.json",
+  "type": "AnnotationPage",
+  "label": "Relationships",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-relationships-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: mmhmm, yes. [long pause] Turn your hands up this way for me? [long pause] Have you ever been deeply in love?\n\nGA: In love? I think once.\n\nJL: Did the person know it?\n\nGA: Yes.\n\nJL: Did anything come of it?\n\nGA: No.\n\nJL: The person wasn’t interested?\n\nGA: Scared.\n\nJL: So, this fell to the wayside?\n\nGA: No, we’re friends. It’s hard on me though. It’s very hard.\n\nJL: How long ago was it?\n\nGA: It’s been about, um, six years?\n\nJL: So you were about 31?\n\nGA: Yes. Sometimes I’m not sure what love is. I don’t think–sometimes I think I’m not-I’ve never been in love. I mean I know what love is, but I don’t know what “in love” is. Do you know what I mean?\n\nJL: So the person was not in love with you?\n\nGA: I think he is, but he is a gay man, and he has a gay lover.\n\nJL: You don’t need that\n\nGA: I don’t need that. And I think we both feel that way about each other, but it’s not the right situation.\n\nJL: No, I mean, if he’s a gay man, he’s going to want to make love to a man, instead of a woman, don’t you think?\n\nGA: Oh, yeah.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1054.0,1179.0"
+        }
+      }
+    }
+  ]
+}

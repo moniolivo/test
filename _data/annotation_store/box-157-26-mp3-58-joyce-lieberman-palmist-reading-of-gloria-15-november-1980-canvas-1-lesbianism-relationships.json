@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-lesbianism-relationships.json",
+  "type": "AnnotationPage",
+  "label": "Lesbianism\nRelationships",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-lesbianism-relationships-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: Why do you consider yourself a lesbian?\n\nGA: Because, um, I don’t define a lesbian just as somebody who makes love to a woman. I define lesbian as a woman who loves women. And I have felt attractions towards two women, but they were, one was also scared off, and the other was–already had a lover.\n\nJL: Did they know how you felt?\n\nGA: The first one did. The second one I never said anything to her, but I think she guessed, cause we still are very loving to each other.\n\nJL: Are you frightened at, uh…Are you frightened to ask for a relationship?\n\nGA: Yes. I think I am. Well I think that I am. I think as soon as I say I am frightened that the opposite is also true that I’m not. I’m just very picky. I’m very particular. And I just think that I’m waiting, or I’m [inaudible]. That I have certain ideals? That are very hard to meet? And, uh\n\nJL: You need a lot of love. And you need a lot of warmth. And everyone does, and you in particular. You also need outlets for your energy. That is just extremely important that you work with people in a loving way. And in a worthy way. But you do that dont you?",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1209.0,1307.0"
+        }
+      }
+    }
+  ]
+}

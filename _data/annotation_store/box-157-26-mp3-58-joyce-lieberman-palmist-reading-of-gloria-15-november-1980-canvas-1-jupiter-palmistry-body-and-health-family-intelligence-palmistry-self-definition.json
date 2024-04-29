@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-jupiter-palmistry-body-and-health-family-intelligence-palmistry-self-definition.json",
+  "type": "AnnotationPage",
+  "label": "Jupiter\nPalmistry\nBody and Health\nFamily\nIntelligence\nPalmistry\nSelf-Definition",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-jupiter-palmistry-body-and-health-family-intelligence-palmistry-self-definition-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "JL: Any questions you want to ask me?\n\nGA: I wanna ask you about my Jupiter finger.\n\nJL: Alright\n\nGA: People think it's very abnormal [laughs]\n\nJL: Well I think that's due to the endocrine malfunction. Unless do other people have these kind of configurations or is it just you?\n\nGA: I think there's a slight resemblance in one of my brothers because his palm is [inaudible] but mine is like very ag--very, um\n\nJoyce and Gloria discuss medical conditions that influence the shape of her hand such as arthritis or rheumatism. Joyce suggests it is most likely an endocrine or hormonal imbalance at play, reminding Gloria she's been well-protected. Joyce tells Gloria her pride has caused her to have pent-up anger; Gloria agrees. Joyce recommends finding many outlets to release excess anger and to stay healthy. She reminds Gloria to meet her own needs, rather than to satisfy the expectations of others.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1765.0,1896.0"
+        }
+      }
+    }
+  ]
+}

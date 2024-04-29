@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://moniolivo.github.io/test/annotations/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-travel-scholarship.json",
+  "type": "AnnotationPage",
+  "label": "Travel\nScholarship",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980-canvas-1-travel-scholarship-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "GA: I started leaving home\nJL: At what time?\nGA: About 19. I left for a year.\nJL: But your plan, you were thinking of it before, weren’t you?\nGA: Yes, I’d been planning\nJL: And at 19 you left?\nGA: I came back a year later but it was like a different world.\nJL: Where’d you go to?\nGA: I went about 800 miles away. Clear across the state of Texas.\nJL: To where?\nGA: To a little town named Denton, north of Dallas.\nJL: But at least you were near a good place.\nGA: Yes, I started going to a university there.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://moniolivo.github.io/test/box-157-26-mp3-58-joyce-lieberman-palmist-reading-of-gloria-15-november-1980/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "637.0,676.0"
+        }
+      }
+    }
+  ]
+}
